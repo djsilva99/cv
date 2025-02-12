@@ -744,19 +744,19 @@ skills:
   - name: AWS cloud services
     level: 75%
 
-  - name: terraform
+  - name: Terraform
     level: 60%
 
-  - name: numpy
+  - name: Numpy
     level: 75%
 
-  - name: matplotlib
+  - name: Matplotlib
     level: 75%
 
-  - name: scikit-learn
+  - name: Scikit-learn
     level: 75%
 
-  - name: pandas
+  - name: Pandas
     level: 75%
 
 footer: >
