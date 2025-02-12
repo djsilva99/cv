@@ -29,11 +29,11 @@ sidebar:
   #stack-overflow: # Number/Username, e.g. 123456/alandoe
   #codewars:
   #goodreads: # Number-Username, e.g. 123456-alandoe
-  publons: L-6503-2014 # Number-Username, e.g. 123456-alandoe
-  orcid: 0000-0002-2660-4692
   #mastodon: # Please include your full Mastodon link here.
   #hackerrank: # Please provide your HackerRank username.
   #leetcode: # Please provide your LeetCode username.
+  publons: L-6503-2014
+  orcid: 0000-0002-2660-4692
   #pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
@@ -54,27 +54,18 @@ sidebar:
   #  - item: Climbing
   #    link:
 
-
-  #  - item: Snowboarding
-  #    link:
-
-
-  #  - item: Cooking
-  #    link:
-
-
 career-profile:
   title: Career Profile
   summary: |
-    Highly skilled and results-oriented software engineer with 10 years of
-    experience in academia and industry. Proven expertise in designing and
-    developing high-performance Backend systems, Machine Learning models,
-    and scientific software frameworks. Successfully translated complex
-    scientific and business challenges into robust, scalable, and
-    impactful software solutions. Holds a PhD in Physics. Published over
-    40 peer-reviewed scientific papers. Possesses a strong foundation in
-    statistical learning, software engineering fundamentals, and agile
-    methodologies.
+    Highly skilled and results-oriented software engineer with 10
+    years of experience in academia and industry. Proven expertise in
+    designing and developing high-performance Backend systems, Machine
+    Learning models, and scientific software. Successfully translated
+    complex scientific and business challenges into robust, scalable,
+    and impactful software solutions. Holds a PhD in
+    Physics. Published over 40 peer-reviewed scientific
+    papers. Possesses a strong foundation in statistical learning,
+    software engineering fundamentals, and agile methodologies.
 
 education:
   title: Education
@@ -113,6 +104,7 @@ experiences:
           quotation services, ensuring scalability and maintainability.
         - Onboarded new software engineers, fostering a collaborative and
           inclusive team culture.
+
   - role: Senior Computational Physicist
     time: 2019 - 2022
     company: University of Porto, Porto
@@ -133,6 +125,7 @@ experiences:
           optimization.
         - Supervised Master’s and PhD students on advanced computational
           techniques.
+
   - role: Senior Computational Physicist
     time: 2017 - 2019
     company: University of Aveiro, Aveiro
@@ -148,6 +141,7 @@ experiences:
           Thermotechnology.
         - Published 5+ peer-reviewed research papers, including publications
           on software development and computational physics.
+
   - role: Research Scientist
     time: 2016 - 2017
     company: University of Porto, Porto
@@ -157,6 +151,7 @@ experiences:
           leveraging Python and Tkinter for user-friendly interfaces.
         - Conducted advanced computational simulations for solid-state
           magnetic refrigerator design.
+
   - role: R&D Engineer
     time: 2016 - 2016
     company: BOSCH Thermotechnology, Aveiro
@@ -164,6 +159,7 @@ experiences:
         - Modeled the magnetic circuit of solenoid gas valves using Python and
           numerical simulation tools.
         - Contributed to a high-impact gas valve production transfer project.
+
   - role: Postdoctoral Researcher
     time: 2015 - 2015
     company: KU Leuven, Belgium
@@ -250,22 +246,6 @@ certifications:
     credentialname: Udemy
     details: |
       Access and parse the web with Python.
-#  - name: Git learning
-#    start: 2019
-#    end:
-#    organization: Microsoft
-#    credentialid: 111-222
-#    credentialurl: www.github.com
-#    credentialname: Github
-#    details: |
-#      Older certification. Lorem ipsum dolor sit amet, consectetur
-#      adipiscing elit.
-#      Nullam eget orci purus. Nullam ultrices neque nibh.
-#      Aenean fermentum, felis vulputate suscipit accumsan,
-#      sem enim bibendum augue, sed convallis arcu lacus at dui.
-#      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-#      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-#      Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
   title: Personal Projects
@@ -274,35 +254,18 @@ projects:
   assignments:
   - title: "Matfinder"
     link: "https://github.com/matfinder/matfinder-doc"
-    tagline: "web database of materials physical properties - Backend developer (PostgreSQL & Flask), 2021."
+    tagline: "Web database of materials physical properties - Backend developer (PostgreSQL & Flask), 2021."
   - title: "Computeheat"
     link: "https://heat.djsilva.xyz/"
-    tagline: "compute heat transfer processes involving heat conduction of stacks of materials - Full Stack developer (MongoDB & Flask & React.js), 2018."
+    tagline: "Computes heat transfer processes involving heat conduction of stacks of materials - Full Stack developer (MongoDB & Flask & React.js), 2018."
   - title: "Sequency"
     link: "https://sequency.djsilva.xyz/home"
-    tagline: "web game: make series of three consecutive numbers horizontally and vertically - Full Stack developer (MongoDB & Flask & React.js), 2018."
+    tagline: "Web game: make series of three consecutive numbers horizontally and vertically - Full Stack developer (MongoDB & Flask & React.js), 2018."
   - title: "Personalwebpage"
     link: "https://djsilva.xyz/home"
-    tagline: "my personal webpage - Full Stack developer (Django), 2017."
+    tagline: "My personal webpage - Full Stack developer (Django), 2017."
   - title: "Interlude"
-    tagline: "upgrade of the prelude software, written in C++, for analyzing PAC data at the ISOLDE facility, CERN (member of the team) 2009."
-
-#
-#  - title: DevStudio
-#    link: "#"
-#    tagline: "A responsive website template designed to help web developers/designers market their services."
-#
-#  - title: Tempo
-#    link: "#"
-#    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-#
-#  - title: Atom
-#    link: "#"
-#    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-#
-#  - title: Delta
-#    link: "#"
-#    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    tagline: "Upgrade of the prelude software, written in C++, for analyzing PAC data at the ISOLDE facility, CERN (member of the team) 2009."
 
 oss:
   title: OSS Contributions
@@ -311,19 +274,16 @@ oss:
   contributions:
   - title: Heatrapy
     link: "https://github.com/djsilva99/heatrapy"
-    tagline: "Python lib for simulating dynamic 1D and 2D heat transfer processes by using the finite difference method"
-
+    tagline: "Python lib for simulating dynamic 1D and 2D heat transfer processes involving caloric effects by using the finite difference method."
   - title: Resswitch
     link: "https://github.com/djsilva99/resswitch"
-    tagline: "GUI for analyzing resistive switching data"
-
+    tagline: "GUI for analyzing resistive switching data."
   - title: Memristivenetworks
     link: "https://github.com/memristivenetworks/memristivenetworks"
-    tagline: "Python lib for simulating the functioning of memristive Willshaw networks and memristive perceptrons"
-
+    tagline: "Python lib for simulating the functioning of memristive Willshaw networks and memristive perceptrons."
   - title: Physplotlib
     link: "https://github.com/djsilva99/physplotlib"
-    tagline: "Python lib for plotting research simulation data"
+    tagline: "Python lib for plotting research simulation data."
 
 publications:
   title: Publications (44)
@@ -338,23 +298,23 @@ publications:
     conference: "Int. J. Refrig. 2025, 172, 134."
 
   - title: "Direct measurements of the conventional and rotational magnetocaloric effects in Gd thick films"
-    link: "https://doi.org/10.1088/1361-6463/58/7/075502"
-    authors: "C. S. Pereira, R. Almeida, T. Niehoff, R. Kiefe, E. Fontana, D. J. Silva, T. Gottschall, J. Wosnitza, T. Devillers, N. M. Dempsey"
+    link: "https://iopscience.iop.org/article/10.1088/1361-6463/ad958f"
+    authors: "C. S. Pereira, R. Almeida, T. Niehoff, R. Kiefe, E. Fontana, <u>D. J. Silva</u>, T. Gottschall, J. Wosnitza, T. Devillers, N. M. Dempsey"
     conference: "J. Phys. D Appl. Phys. 2024, 58, 075502."
 
   - title: "Magnetic refrigeration enhanced by magnetically-activated thermal switch: An experimental proof-of-concept"
-    link: "https://doi.org/10.1016/j.ijrefrig.2023.08.010"
-    authors: "V. M. Andrade, C. R. Fernandes, D. J. Silva, J. S. Teixeira, C. R. Pereira, R. Duarte, A. L. Pires, J. Ventura, J. Oliveira"
+    link: "https://doi.org/10.1016/j.heliyon.2024.e31826"
+    authors: "V. M. Andrade, C. R. Fernandes, <u>D. J. Silva</u>, J. S. Teixeira, C. R. Pereira, R. Duarte, A. L. Pires, J. Ventura, J. Oliveira"
     conference: "Int. J. Refrig. 2024, 164, 210."
 
   - title: "Impact of different numerical approaches on the magnetocaloric effect modeling"
-    link: "https://doi.org/10.1016/j.heliyon.2023.e31826"
-    authors: "C. R. Fernandes, J. O. Ventura, D. J. Silva"
+    link: "https://doi.org/10.1016/j.heliyon.2024.e31826"
+    authors: "C. R. Fernandes, J. O. Ventura, <u>D. J. Silva</u>"
     conference: "Heliyon 2024, 10, e31826."
 
   - title: "Rotating magnetocaloric effect in polycrystals - harnessing the demagnetizing effect"
-    link: "https://doi.org/10.1088/2515-7655/abcf7e"
-    authors: "R. Almeida, S. C. Freitas, C. R. Fernandes, R. Kiefe, J. P. Araújo, J. S. Amaral, J. O. Ventura, J. H. Belo, D. J. Silva"
+    link: "https://doi.org/10.1088/2515-7655/ad1c61"
+    authors: "R. Almeida, S. C. Freitas, C. R. Fernandes, R. Kiefe, J. P. Araújo, J. S. Amaral, J. O. Ventura, J. H. Belo, <u>D. J. Silva</u>"
     conference: "J. Phys. Energy 2024, 6, 015020."
 
   - title: "Complete thermodynamic characterization of second-order phase transition magnetocaloric materials exclusively through magnetometry"
@@ -363,193 +323,193 @@ publications:
     conference: "J. Alloys Compd. 2024, 976, 173290."
 
   - title: "High-performance magnetic thermal switch based on MnFe2O4/Ethylene Glycol:Water refrigerant dispersion"
-    link: "https://doi.org/10.1016/j.energy.2023.129123"
-    authors: "V. M. Andrade, C. R. Fernandes, J. S. Teixeira, C. Pereira, A. L. Pires, D. J. Silva, J. Ventura, J. Oliveira"
+    link: "https://www.sciencedirect.com/science/article/pii/S0360544223025173"
+    authors: "V. M. Andrade, C. R. Fernandes, J. S. Teixeira, C. Pereira, A. L. Pires, <u>D. J. Silva</u>, J. Ventura, J. Oliveira"
     conference: "Energy 2023, 283, 129123."
 
   - title: "Rod mangle rotation patterns for adjustable magnetic field generation"
     link: "https://doi.org/10.1016/j.jmmm.2022.170227"
-    authors: "C.R. Fernandes, J.O. Ventura, D. J. Silva"
+    authors: "C.R. Fernandes, J.O. Ventura, <u>D. J. Silva</u>"
     conference: "J. Magn. Magn. Mater. 2023, 565, 170227."
 
   - title: "Modeling the Transient Response of Thermal Circuits"
-    link: "https://doi.org/10.3390/app122412555"
-    authors: "D. J. Silva"
+    link: "https://www.mdpi.com/2076-3417/12/24/12555"
+    authors: "<u>D. J. Silva</u>"
     conference: "Appl. Sci. 2022, 12, 12555."
 
   - title: "Predicting the magnetic measurements of first- and second-order phase transition magnetocaloric materials with artificial neural networks"
-    link: "https://doi.org/10.1016/j.jmmm.2022.169706"
+    link: "https://www.sciencedirect.com/science/article/pii/S030488532200614X"
     authors: "R.M.C. Pinto, J.H. Belo, J.P. Araújo, D.J. Silva"
     conference: "J. Magn. Magn. Mater. 2022, 562, 169706."
 
   - title: "Numerical simulation and optimization of a solid state thermal diode based on shape-memory alloys"
-    link: "https://doi.org/10.1016/j.energy.2022.124460"
+    link: "https://www.sciencedirect.com/science/article/pii/S0360544222013639?via%3Dihub"
     authors: "C.R. Fernandes, D.J. Silva, A.M. Pereira, J.O. Ventura"
     conference: "Energy 2022, 255, 124460."
 
   - title: "Hybridizing Triboelectric and Thermomagnetic Effects: A Novel Low-Grade Thermal Energy Harvesting Technology"
-    link: "https://doi.org/10.1002/adfm.202110288"
-    authors: "C. Rodrigues, A. L. Pires, I. Gonçalves, D. J. Silva, J. C. R. E. Oliveira, A. M. Pereira, J. O. Ventura"
+    link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/adfm.202110288"
+    authors: "C. Rodrigues, A. L. Pires, I. Gonçalves, <u>D. J. Silva</u>, J. C. R. E. Oliveira, A. M. Pereira, J. O. Ventura"
     conference: "Adv. Funct. Mater. 2022, 32, 2110288."
 
   - title: "Caloric devices: A review on numerical modeling and optimization strategies"
-    link: "https://doi.org/10.1002/er.7023"
-    authors: "D. J. Silva, J. Ventura, J. P. Araújo"
+    link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/er.7023"
+    authors: "<u>D. J. Silva</u>, J. Ventura, J. P. Araújo"
     conference: "Int. J. Energy Res. 2021, 45, 18498."
 
   - title: "Thermal switching requirements for solid state magnetic refrigeration"
-    link: "https://doi.org/10.1016/j.jmmm.2021.167979"
-    authors: "D. J. Silva, A. M. Pereira, J. Ventura, J. P. Araújo, J. C. R. E. Oliveira"
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S0304885321002559?via%3Dihub"
+    authors: "<u>D. J. Silva</u>, A. M. Pereira, J. Ventura, J. P. Araújo, J. C. R. E. Oliveira"
     conference: "J. Magn. Magn. Mater. 2021, 533, 167979."
 
   - title: "Predicting the performance of magnetocaloric systems using machine learning regressors"
-    link: "https://doi.org/10.1016/j.egyai.2020.100030"
-    authors: "D. J. Silva, J. Ventura, J. P. Araujo"
+    link: "https://doi.org/10.1016%2Fj.egyai.2020.100030"
+    authors: "<u>D. J. Silva</u>, J. Ventura, J. P. Araujo"
     conference: "Energy and AI 2020, 2, 100030."
 
   - title: "Broad Multi-Parameter Dimensioning of Magnetocaloric Systems Using Statistical Learning Classifiers"
-    link: "https://doi.org/10.3389/fenrg.2020.00121"
-    authors: "D. J. Silva, J. S. Amaral, V. S. Amaral"
+    link: "https://www.frontiersin.org/articles/10.3389/fenrg.2020.00121/full"
+    authors: "<u>D. J. Silva</u>, J. S. Amaral, V. S. Amaral"
     conference: "Frontiers in Energy Research 2020, 8, 121."
 
   - title: "Magnetic Refrigeration Materials at Micro-Scale"
-    link: "https://doi.org/10.1016/B978-0-12-803581-8.11564-9"
-    authors: "D. J. Silva, J. Ventura, J. P. Araújo"
+    link: "https://www.sciencedirect.com/science/article/pii/B9780128035818117928"
+    authors: "<u>D. J. Silva</u>, J. Ventura, J. P. Araújo"
     conference: "Reference Module in Materials Science and Materials Engineering, Elsevier, 2017."
 
   - title: "Chapter: Associative Networks and Perceptron Based on Memristors: Fundamentals and Algorithmic Implementation"
     link: "https://link.springer.com/chapter/10.1007/978-3-319-76375-0_26"
-    authors: "C. Dias, D. J. Silva, P. Aguiar and J. Ventura"
+    authors: "C. Dias, <u>D. J. Silva</u>, P. Aguiar and J. Ventura"
     conference: "Handbook of Memristor Networks 2019, Spinger, 729-765."
 
   - title: "A magnetically-activated thermal switch without moving parts"
     link: "https://doi.org/10.1016/j.enconman.2019.111881"
-    authors: "C. Rodrigues, M. M. Dias, L. Martins, D. J. Silva, J. P. Araújo, J. C. R. E. Oliveira, A. M. Pereira, J. Ventura"
+    authors: "C. Rodrigues, M. M. Dias, L. Martins, <u>D. J. Silva</u>, J. P. Araújo, J. C. R. E. Oliveira, A. M. Pereira, J. Ventura"
     conference: "Energy Convers. Manag. 2019, 197, 111881."
 
   - title: "Temperature dependent thermal conductivity of magnetocaloric materials: Impact assessment on the performance of active magnetic regenerative refrigerators"
-    link: "https://doi.org/10.1016/j.ijrefrig.2019.06.014"
-    authors: "D. J. Silva, A. Davarpanah, J. S. Amaral, V. S. Amaral"
+    link: "https://www.sciencedirect.com/science/article/pii/S0140700719302671"
+    authors: "<u>D. J. Silva</u>, A. Davarpanah, J. S. Amaral, V. S. Amaral"
     conference: "Int. J. Refrig. 2019, 106, 181."
 
   - title: "Modeling and computing magnetocaloric systems using the Python framework heatrapy"
-    link: "https://doi.org/10.1016/j.ijrefrig.2019.06.013"
-    authors: "D. J. Silva, J. S. Amaral, V. S. Amaral"
+    link: "https://www.sciencedirect.com/science/article/pii/S0140700719302658"
+    authors: "<u>D. J. Silva</u>, J. S. Amaral, V. S. Amaral"
     conference: "Int. J. Refrig. 2019, 106, 278."
 
   - title: "Lattice location study of low-fluence ion-implanted ¹²⁴In in 3C-SiC"
-    link: "https://doi.org/10.1063/1.5093620"
-    authors: "A. R. G. Costa, U. Wahl, J. G. Correia, E. David-Bosne, V. Augustyns, T. A. L. Lima, D. J. Silva, M. R. da Silva, K. Bharuth-Ram, L. M. C. Pereira"
+    link: "https://aip.scitation.org/doi/full/10.1063/1.5097032"
+    authors: "A. R. G. Costa, U. Wahl, J. G. Correia, E. David-Bosne, V. Augustyns, T. A. L. Lima, <u>D. J. Silva</u>, M. R. da Silva, K. Bharuth-Ram, L. M. C. Pereira"
     conference: "J. Appl. Phys. 2019, 125, 215706."
 
   - title: "Cooling by sweeping: A new operation method to achieve ferroic refrigeration without fluids or thermally switchable components"
-    link: "https://doi.org/10.1016/j.ijrefrig.2019.01.030"
-    authors: "D. J. Silva, J. S. Amaral, V. S. Amaral"
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S0140700719300799"
+    authors: "<u>D. J. Silva</u>, J. S. Amaral, V. S. Amaral"
     conference: "Int. J. Refrig. 2019, 101, 98-105."
 
   - title: "Enhancing the temperature span of thermal switch‐based solid state magnetic refrigerators with field sweeping"
-    link: "https://doi.org/10.1002/er.4320"
-    authors: "D. J. Silva, J. Ventura, J. S. Amaral, V. S. Amaral"
+    link: "https://onlinelibrary.wiley.com/doi/pdf/10.1002/er.4264"
+    authors: "<u>D. J. Silva</u>, J. Ventura, J. S. Amaral, V. S. Amaral"
     conference: "Int. J. Energy Res. 2019, 43, 742-748."
 
   - title: "Heatrapy: A flexible Python framework for computing dynamic heat transfer processes involving caloric effects in 1.5D systems"
-    link: "https://doi.org/10.1016/j.softx.2018.07.002"
-    authors: "D. J. Silva, J. S. Amaral, V. S. Amaral"
+    link: "https://www.sciencedirect.com/science/article/pii/S2352711018301298"
+    authors: "<u>D. J. Silva</u>, J. S. Amaral, V. S. Amaral"
     conference: "SoftwareX 2018, 7, 373-382."
 
   - title: "Lattice sites of ion-implanted Mn, Fe and Ni in 6H-SiC"
-    link: "https://doi.org/10.1088/1361-6641/aa9d0b"
-    authors: "A. R. G. Costa, U. Wahl, J. G. Correia, E. Bosne, L. M. Amorim, V. Augustyns, D. J. Silva, M. R. da Silva, L. M. C. Pereira"
+    link: "http://iopscience.iop.org/article/10.1088/1361-6641/aa9f08/meta"
+    authors: "A. R. G. Costa, U. Wahl, J. G. Correia, E. Bosne, L. M. Amorim, V. Augustyns, <u>D. J. Silva</u>, M. R. da Silva, L. M. C. Pereira"
     conference: "Semicond. Sci. Technol. 2018, 33, 015021."
 
   - title: "Lattice location of implanted transition metals in 3C–SiC"
-    link: "https://doi.org/10.1088/1361-6463/aa6b0b"
-    authors: "A. R. G. Costa, U. Wahl, J. G. Correia, E. Bosne, L. M. Amorim, V. Augustyns, D. J. Silva, M. R. da Silva"
+    link: "http://iopscience.iop.org/article/10.1088/1361-6463/aa6878/meta"
+    authors: "A. R. G. Costa, U. Wahl, J. G. Correia, E. Bosne, L. M. Amorim, V. Augustyns, <u>D. J. Silva</u>, M. R. da Silva"
     conference: "J. Phys. D Appl. Phys. 2017, 50, 215101."
 
   - title: "Lattice location of implanted Co in heavily doped n+- and p+-type silicon"
-    link: "https://doi.org/10.1007/s00339-017-0900-0"
-    authors: "D. J. Silva, U. Wahl, J. G. Correia, L. M. Amorim, M. R. da Silva, L. M. C. Pereira, J. P. Araújo"
+    link: "https://link.springer.com/article/10.1007%2Fs00339-017-0870-0"
+    authors: "<u>D. J. Silva</u>, U. Wahl, J. G. Correia, L. M. Amorim, M. R. da Silva, L. M. C. Pereira, J. P. Araújo"
     conference: "Appl. Phys. A Mater. Sci. 2017, 123, 286."
 
   - title: "Novel thermal switch based on magnetic nanofluids with remote activation"
-    link: "https://doi.org/10.1016/j.nanoen.2016.12.048"
-    authors: "J. B. Puga, B. D. Bordalo, D. J. Silva, M. M. Dias, J. H. Belo, J. P. Araújo, J. C. R. E. Oliveira, A. M. Pereira, J. Ventura"
+    link: "http://www.sciencedirect.com/science/article/pii/S2211285516304967"
+    authors: "J. B. Puga, B. D. Bordalo, <u>D. J. Silva</u>, M. M. Dias, J. H. Belo, J. P. Araújo, J. C. R. E. Oliveira, A. M. Pereira, J. Ventura"
     conference: "Nano Energy 2017, 31, 278."
 
   - title: "Direct observation of the lattice sites of implanted manganese in silicon"
-    link: "https://doi.org/10.1007/s00339-016-9734-0"
-    authors: "D. J. Silva, U. Wahl, J. G. Correia, L. M. Amorim, S. Decoster, M. R. da Silva, L. M. C. Pereira, J. P. Araújo"
+    link: "http://link.springer.com/article/10.1007/s00339-016-9724-4"
+    authors: "<u>D. J. Silva</u>, U. Wahl, J. G. Correia, L. M. Amorim, S. Decoster, M. R. da Silva, L. M. C. Pereira, J. P. Araújo"
     conference: "Appl. Phys. A Mater. Sci. 2016, 122, 241."
 
   - title: "Drawing the geometry of 3d transition metal-boron pairs in silicon from electron emission channeling experiment"
-    link: "https://doi.org/10.1016/j.nimb.2015.12.016"
-    authors: "D. J. Silva, U. Wahl, J. G. Correia, V. Augustyns, T. A. L. Lima, A. Costa, E. Bosne, M. R. da Silva, J. P. Araújo, L. M. C. Pereira"
+    link: "http://www.sciencedirect.com/science/article/pii/S0168583X15009246"
+    authors: "<u>D. J. Silva</u>, U. Wahl, J. G. Correia, V. Augustyns, T. A. L. Lima, A. Costa, E. Bosne, M. R. da Silva, J. P. Araújo, L. M. C. Pereira"
     conference: "Nucl. Instrum. Methods Phys. Res. Sect. B 2016, 374, 1-5."
 
   - title: "Optimization of the physical properties of magnetocaloric materials for solid state magnetic refrigeration"
-    link: "https://doi.org/10.1016/j.applthermaleng.2016.01.009"
-    authors: "D. J. Silva, B. D. Bordalo, J. Puga, A. M. Pereira, J. Ventura, J. C. R. E. Oliveira, J. P. Araújo"
+    link: "http://www.sciencedirect.com/science/article/pii/S1359431116000818"
+    authors: "<u>D. J. Silva</u>, B. D. Bordalo, J. Puga, A. M. Pereira, J. Ventura, J. C. R. E. Oliveira, J. P. Araújo"
     conference: "Appl. Therm. Eng. 2016, 99, 1."
 
   - title: "Identification of the interstitial Mn site in ferromagnetic (Ga,Mn)As"
-    link: "https://doi.org/10.1063/1.4905635"
-    authors: "T. A. L. Lima, U. Wahl, V. Augustyns, D. J. Silva, A. Costa, K. Houben, K. W. Edmonds, B. L. Gallagher, R. P. Campion, M. J. Van Bael, M. R. da Silva, J. G. Correia, J. P. Araújo, K. Temst, A. Vantomme, L. M. C. Pereira"
+    link: "http://aip.scitation.org/doi/abs/10.1063/1.4905556?journalCode=apl"
+    authors: "T. A. L. Lima, U. Wahl, V. Augustyns, <u>D. J. Silva</u>, A. Costa, K. Houben, K. W. Edmonds, B. L. Gallagher, R. P. Campion, M. J. Van Bael, M. R. da Silva, J. G. Correia, J. P. Araújo, K. Temst, A. Vantomme, L. M. C. Pereira"
     conference: "Appl. Phys. Lett. 2015, 106, 012406."
 
   - title: "Maximizing the temperature span of a solid state active magnetic regenerative refrigerator"
-    link: "https://doi.org/10.1016/j.apenergy.2013.09.049"
-    authors: "D. J. Silva, J. Ventura, J. P. Araújo, A. M. Pereira"
+    link: "http://www.sciencedirect.com/science/article/pii/S0306261913007149"
+    authors: "<u>D. J. Silva</u>, J. Ventura, J. P. Araújo, A. M. Pereira"
     conference: "Appl. Energy 2014, 114, 1149-1154."
 
   - title: "Lattice location and thermal stability of implanted nickel in silicon studied by on-line Emission Channeling"
-    link: "https://doi.org/10.1063/1.4861615"
-    authors: "D. J. Silva, U. Wahl, J. G. Correia, L. M. C. Pereira, L. M. Amorim, E. Bosne, M. R. da Silva, J. P. Araújo"
+    link: "http://aip.scitation.org/doi/abs/10.1063/1.4861142"
+    authors: "<u>D. J. Silva</u>, U. Wahl, J. G. Correia, L. M. C. Pereira, L. M. Amorim, E. Bosne, M. R. da Silva, J. P. Araújo"
     conference: "J. Appl. Phys. 2014, 115, 023504."
 
   - title: "The effect of coolants on the performance of magnetic micro-refrigerators"
-    link: "https://doi.org/10.1166/jnn.2014.8720"
-    authors: "D. J. Silva, B. D. Bordalo, A. M. Pereira, J. Ventura, J. C. R. E. Oliveira, J. P. Araújo"
+    link: "http://www.ingentaconnect.com/content/asp/jnn/2014/00000014/00000006/art00050"
+    authors: "<u>D. J. Silva</u>, B. D. Bordalo, A. M. Pereira, J. Ventura, J. C. R. E. Oliveira, J. P. Araújo"
     conference: "J. Nanosci. Nanotechnol. 2014, 14, 4337-4340."
 
   - title: "Emission channeling studies on transition-metal doped GaN and ZnO: Cation versus anion substitution"
-    link: "https://doi.org/10.1016/j.nimb.2014.02.089"
-    authors: "L. M. C. Pereira, U. Wahl, J. G. Correia, L. M. Amorim, D. J. Silva, S. Decoster, M. R. da Silva, K. Temst, A. Vantomme"
+    link: "http://www.sciencedirect.com/science/article/pii/S0168583X1400305X"
+    authors: "L. M. C. Pereira, U. Wahl, J. G. Correia, L. M. Amorim, <u>D. J. Silva</u>, S. Decoster, M. R. da Silva, K. Temst, A. Vantomme"
     conference: "Nucl. Instrum. Methods Phys. Res. Sect. B 2014, 332, 143-147."
 
   - title: "Influence of the doping on the lattice sites of Fe in Si"
-    link: "https://doi.org/10.1063/1.4861615"
-    authors: "D. J. Silva, U. Wahl, J. G. Correia, J. P. Araújo"
+    link: "http://aip.scitation.org/doi/abs/10.1063/1.4865597"
+    authors: "<u>D. J. Silva</u>, U. Wahl, J. G. Correia, J. P. Araújo"
     conference: "AIP Conf. Proc. 2014, 1583, 24-27."
 
   - title: "Origin of the lattice sites occupied by implanted Co in Si"
-    link: "https://doi.org/10.1088/0268-1242/29/12/125006"
-    authors: "D. J. Silva, U. Wahl, J. G. Correia, L. M. C. Pereira, L. M. Amorim, M. R. da Silva, J. P. Araújo"
+    link: "http://iopscience.iop.org/article/10.1088/0268-1242/29/12/125006"
+    authors: "<u>D. J. Silva</u>, U. Wahl, J. G. Correia, L. M. C. Pereira, L. M. Amorim, M. R. da Silva, J. P. Araújo"
     conference: "Semicond. Sci. Technol. 2014, 29, 125006."
 
   - title: "Emission Channeling with Short-Lived Isotopes (EC-SLI) at CERN’s ISOLDE facility"
-    link: "https://doi.org/10.1142/9789814663618_0090"
-    authors: "U. Wahl, J. G. Correia, A. Costa, E. David-Bosne, L. M. C. Pereira, L. M. Amorim, V. Augustyns, K. Temst, A. Vantomme, M. R. da Silva, D. J. Silva, J. P. Araújo, P. Miranda, K. Bharuth-Ram"
+    link: "http://www.worldscientific.com/doi/abs/10.1142/9789814632041_0061"
+    authors: "U. Wahl, J. G. Correia, A. Costa, E. David-Bosne, L. M. C. Pereira, L. M. Amorim, V. Augustyns, K. Temst, A. Vantomme, M. R. da Silva, <u>D. J. Silva</u>, J. P. Araújo, P. Miranda, K. Bharuth-Ram"
     conference: "Proceedings of the First International African Symposium on Exotic Nuclei (IASEN 2013) 2014, 563-573."
 
   - title: "Influence of n+- and p+ doping on the lattice sites of implanted Fe in silicon"
-    link: "https://doi.org/10.1063/1.4829335"
-    authors: "D. J. Silva, U. Wahl, J. G. Correia, J. P. Araújo"
+    link: "http://aip.scitation.org/doi/abs/10.1063/1.4819210?journalCode=jap"
+    authors: "<u>D. J. Silva</u>, U. Wahl, J. G. Correia, J. P. Araújo"
     conference: "J. Appl. Phys. 2013, 114, 103503."
 
   - title: "Minority anion substitution by Ni in ZnO"
-    link: "https://doi.org/10.1063/1.4829335"
-    authors: "L. M. C. Pereira, U. Wahl, J. G. Correia, L. M. Amorim, D. J. Silva, E. Bosne, S. Decoster, M. R. da Silva, K. Temst, A. Vantomme"
+    link: "http://aip.scitation.org/doi/abs/10.1063/1.4820254?journalCode=apl"
+    authors: "L. M. C. Pereira, U. Wahl, J. G. Correia, L. M. Amorim, <u>D. J. Silva</u>, E. Bosne, S. Decoster, M. R. da Silva, K. Temst, A. Vantomme"
     conference: "Appl. Phys. Lett. 2013, 103, 091905."
 
   - title: "Precise lattice location of substitutional and interstitial Mg in AlN"
-    link: "https://doi.org/10.1063/1.4840535"
-    authors: "L. M. Amorim, U. Wahl, L. M. C. Pereira, S. Decoster, D. J. Silva, M. R. da Silva, A. Gottberg, J. G. Correia, K. Temst, A. Vantomme"
+    link: "http://aip.scitation.org/doi/abs/10.1063/1.4858389?journalCode=apl"
+    authors: "L. M. Amorim, U. Wahl, L. M. C. Pereira, S. Decoster, <u>D. J. Silva</u>, M. R. da Silva, A. Gottberg, J. G. Correia, K. Temst, A. Vantomme"
     conference: "Appl. Phys. Lett. 2013, 103, 262102."
 
   - title: "Solid state magnetic refrigerator"
-    link: "https://doi.org/10.1016/j.apenergy.2011.10.034"
-    authors: "D. J. Silva, B. D. Bordalo, A. M. Pereira, J. Ventura, J. P. Araújo"
+    link: "http://www.sciencedirect.com/science/article/pii/S0306261911007963"
+    authors: "<u>D. J. Silva</u>, B. D. Bordalo, A. M. Pereira, J. Ventura, J. P. Araújo"
     conference: "Appl. Energy 2012, 93, 570–574."
 
 patents:
@@ -580,146 +540,146 @@ awards:
     authors: "attributed to one outstanding young researcher at the 27th international conference on defects in semiconductors (ICDS 27);"
 
 communications:
-  title: Communications (33)
+  title: Communications (34)
 #  intro: |
 #    You can list your publications in this section. Lorem ipsum dolor sit
 #    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
 #    bibendum fringilla a eu lectus.
   papers:
   - title: "Fully solid state magnetocaloric cooling: an efficient alternative solution for refrigeration (invited talk)."
-    authors: "D. J. Silva;"
+    authors: "<u>D. J. Silva</u>;"
     conference: "Joint European Magnetic Symposia 2022 (JEMS 2022), Warsaw, Poland, 2022."
 
   - title: "Heatrapy 2.0: a two-dimensional upgrade for computing dynamic heat transfer processes in Python involving non conventional phenomena (poster)."
-    authors: "D. J. Silva;"
+    authors: "<u>D. J. Silva</u>;"
     conference: "Magnetism and Magnetic Materials Conference 2022 (MMM 2022), Minneapolis, USA, 2022."
 
   - title: "Heatrapy: a multidimensional tool to compute heat transfer processes (poster)."
-    authors: "D. J. Silva;"
+    authors: "<u>D. J. Silva</u>;"
     conference: "Scipy 2021, Virtual conference, 2021."
 
   - title: "Thermal Switches in Solid State Magnetic Refrigeration: Conductivity Change Requirements and Effects (talk)."
-    authors: "D. J. Silva, J. C. R. E. Oliveira, A. M. Pereira, J. Ventura, J. P. Araújo;"
+    authors: "<u>D. J. Silva</u>, J. C. R. E. Oliveira, A. M. Pereira, J. Ventura, J. P. Araújo;"
     conference: "Thermag 2021, Maryland, USA, 2021."
 
   - title: "Predicting the performance of magnetocaloric heat pumps using machine learning algorithms (talk)."
-    authors: "D. J. Silva, J. Ventura, J. P. Araújo;"
+    authors: "<u>D. J. Silva</u>, J. Ventura, J. P. Araújo;"
     conference: "Intermag 2021 (INTERMAG 2021), Virtual Conference, 2021."
 
   - title: "Predicting the performance of magnetocaloric systems using machine learning regressors (talk)."
-    authors: "D. J. Silva, J. Ventura, J. P. Araújo;"
+    authors: "<u>D. J. Silva</u>, J. Ventura, J. P. Araújo;"
     conference: "Joint European Magnetic Symposia 2020 (JEMS 2020), Lisbon, Portugal, 2020."
 
   - title: "Thermal switches in solid state magnetic refrigeration: conductivity change requirements and effects (poster)."
-    authors: "D. J. Silva, A. M. Pereira, J. Ventura, J. P. Araújo, J. C. R. E. Oliveira;"
+    authors: "<u>D. J. Silva</u>, A. M. Pereira, J. Ventura, J. P. Araújo, J. C. R. E. Oliveira;"
     conference: "Joint European Magnetic Symposia 2020 (JEMS 2020), Lisbon, Portugal, 2020."
 
   - title: "Thermal switches in solid state magnetic refrigeration: conductivity change requirements and effects (poster)."
-    authors: "D. J. Silva, A. M. Pereira, J. Ventura, J. P. Araújo, J. C. R. E. Oliveira;"
+    authors: "<u>D. J. Silva</u>, A. M. Pereira, J. Ventura, J. P. Araújo, J. C. R. E. Oliveira;"
     conference: "Magnetism and Magnetic Materials Conference 2020 (MMM 2020), Palm Beach, Florida, USA, 2020."
 
   - title: "Cooling by sweeping: a new method for solid state ferroic-based refrigeration (talk)."
-    authors: "D. J. Silva, J. S. Amaral, V. S. Amaral;"
+    authors: "<u>D. J. Silva</u>, J. S. Amaral, V. S. Amaral;"
     conference: "Thermag 2018, Darmstadt, Germany, 2018."
 
   - title: "matFinder - a web materials database (talk)."
-    authors: "D. J. Silva, J. H. Bello, G. Lobo, S. Sa;"
+    authors: "<u>D. J. Silva</u>, J. H. Bello, G. Lobo, S. Sa;"
     conference: "empreende + 2018, Aveiro, Portugal, 2018."
 
   - title: "Modeling and dimensioning magnetocaloric heat pumps (poster)."
-    authors: "D. J. Silva, A. Lopes, J. S. Amaral, V. S. Amaral;"
+    authors: "<u>D. J. Silva</u>, A. Lopes, J. S. Amaral, V. S. Amaral;"
     conference: "Thermag 2018, Darmstadt, Germany, 2018."
 
   - title: "Cooling by Sweeping: Establishing a Ferroic-based Refrigeration Cycle with Field Dynamics (poster)."
-    authors: "D. J. Silva, J. S. Amaral, V. S. Amaral;"
+    authors: "<u>D. J. Silva</u>, J. S. Amaral, V. S. Amaral;"
     conference: "International Conference on Magnetism 2018 (ICM 2018), San Francisco, USA, 2018."
 
   - title: "Heatrapy: a flexible python framework to compute thermal processes (poster)."
-    authors: "D. J. Silva, J. S. Amaral, V. S. Amaral;"
+    authors: "<u>D. J. Silva</u>, J. S. Amaral, V. S. Amaral;"
     conference: "Jornadas CICECO 2018, Aveiro, Portugal, 2018."
 
   - title: "Drawing the geometry of 3d transition metal-boron pairs in silicon by means of electron emission channeling experiments (talk)."
-    authors: "D. J. Silva, U. Wahl, Correia, V. Augustyns, T. A. L. Lima, A. Costa, E. Bosne, M. R. da Silva, L. M. C. Pereira, and J. P. Araújo;"
+    authors: "<u>D. J. Silva</u>, U. Wahl, Correia, V. Augustyns, T. A. L. Lima, A. Costa, E. Bosne, M. R. da Silva, L. M. C. Pereira, and J. P. Araújo;"
     conference: "Ion Beam Analysis Conference 2015, Opatija, Croatia, 2015."
 
   - title: "Exploring the geometry of 3d transition metal complexes in silicon with electron emission channeling (invited talk)."
-    authors: "D. J. Silva, U. Wahl, J. G. Correia, V. Augustyns, T. A. L. Lima, A. Costa, E. Bosne, M. R. da Silva, J. P. Araújo, and L. M. C. Pereira;"
+    authors: "<u>D. J. Silva</u>, U. Wahl, J. G. Correia, V. Augustyns, T. A. L. Lima, A. Costa, E. Bosne, M. R. da Silva, J. P. Araújo, and L. M. C. Pereira;"
     conference: "International conference on defects in semiconductors (ICDS) 2015, Espoo, Finland, 2015."
 
   - title: "Origin of the lattice sites occupied by implanted Co in Si (talk)."
-    authors: "D. J. Silva, U. Wahl, J. G. Correia, L. M. C. Pereira, L. M. Amorim, M. R. da Silva, J. P. Araújo;"
+    authors: "<u>D. J. Silva</u>, U. Wahl, J. G. Correia, L. M. C. Pereira, L. M. Amorim, M. R. da Silva, J. P. Araújo;"
     conference: "VIII Jornadas do IFIMUP-IN, Porto, Portugal, 2014."
 
   - title: "Numerical simulation of a fully solid state magnetic micro-refrigerator (poster)."
-    authors: "D. J. Silva, A. M. Pereira, J. Ventura, B. D. Bordalo and J. P. Araújo;"
+    authors: "<u>D. J. Silva</u>, A. M. Pereira, J. Ventura, B. D. Bordalo and J. P. Araújo;"
     conference: "5th International Conference on Advanced Nanomaterials, Aveiro, Portugal, 2014."
 
   - title: "Lattice sites of implanted Co measured by on-line Emission Channeling (poster)."
-    authors: "D. J. Silva, U. Wahl, J. G. Correia, L. M. C. Pereira, L. M. Amorim, M. R. da Silva, J. P. Araújo;"
+    authors: "<u>D. J. Silva</u>, U. Wahl, J. G. Correia, L. M. C. Pereira, L. M. Amorim, M. R. da Silva, J. P. Araújo;"
     conference: "INTERMAG 2014, Dresden, Germany, 2014."
 
   - title: "Magnetic Refrigeration: towards a fully solid state device (poster)."
-    authors: "D. J. Silva, A. M. Pereira, J. Ventura, B. D. Bordalo and J. P. Araújo;"
+    authors: "<u>D. J. Silva</u>, A. M. Pereira, J. Ventura, B. D. Bordalo and J. P. Araújo;"
     conference: "INTERMAG 2014, Dresden, Germany, 2014."
 
   - title: "Lattice location and thermal stability of the implanted transition metals Fe, Co and Ni in silicon of different doping types (talk)"
-    authors: "D. J. Silva, U. Wahl, J. G. Correia, L. M. C. Pereira, L. Amorim, V. Augustyns, A. Costa, E. Bosne, M. Ribeiro da Silva, J. P. Araújo"
+    authors: "<u>D. J. Silva</u>, U. Wahl, J. G. Correia, L. M. C. Pereira, L. Amorim, V. Augustyns, A. Costa, E. Bosne, M. Ribeiro da Silva, J. P. Araújo"
     conference: "ISOLDE Workshop and Users meeting 2013, Geneva, Switzerland, 2013."
 
   - title: "Lattice location and thermal stability of the transition metals Fe, Co and Ni in silicon by emission channeling (talk)"
-    authors: "D. J. Silva, U. Wahl, J. G. Correia, L. M. C. Pereira, L. Amorim, E. Bosne, M. Ribeiro da Silva, S. Decoster, and J. P. Araújo"
+    authors: "<u>D. J. Silva</u>, U. Wahl, J. G. Correia, L. M. C. Pereira, L. Amorim, E. Bosne, M. Ribeiro da Silva, S. Decoster, and J. P. Araújo"
     conference: "Gettering and Defect Engineering in Semiconductor Technology (GADEST) 2013, Oxford, UK, 2013."
 
   - title: "Influence of the doping on the preferred sites of Fe and Ni in silicon (talk)"
-    authors: "D. J. Silva, U. Wahl, J. G. Correia, L. M. C. Pereira, L. M. Amorim, M. R. da Silva, J. P. Araújo"
+    authors: "<u>D. J. Silva</u>, U. Wahl, J. G. Correia, L. M. C. Pereira, L. M. Amorim, M. R. da Silva, J. P. Araújo"
     conference: "Intensive Program ‘Physics and materials science of nanostructures probed by nuclear methods and intense particle beams, Leuven, Belgium, 2013."
 
   - title: "Influence of the doping on the preferred sites of Fe and Ni in silicon (talk)"
-    authors: "D. J. Silva, U. Wahl, J. G. Correia, L. M. C. Pereira, L. M. Amorim, M. R. da Silva, and J. P. Araújo"
+    authors: "<u>D. J. Silva</u>, U. Wahl, J. G. Correia, L. M. C. Pereira, L. M. Amorim, M. R. da Silva, and J. P. Araújo"
     conference: "Jornadas do MAP-fis 2013, Aveiro, Portugal, 2013."
 
   - title: "Influence of the doping on the lattice sites of Fe in Si (poster)"
-    authors: "D. J. Silva, U. Wahl, J. G. Correia, J. P. Araújo"
+    authors: "<u>D. J. Silva</u>, U. Wahl, J. G. Correia, J. P. Araújo"
     conference: "International conference on defects in semiconductors 2013, Bologna, Italy, 2013."
 
   - title: "Localização de metais de transição em silício através da técnica emission channeling (talk)"
-    authors: "D. J. Silva, U. Wahl, J. G. Correia, J. P. Araújo"
+    authors: "<u>D. J. Silva</u>, U. Wahl, J. G. Correia, J. P. Araújo"
     conference: "18a conferência nacional de física, Aveiro, Portugal, 2012."
 
   - title: "Lattice location of Ni in Si by means of on-line emission channeling (talk)"
-    authors: "D. J. Silva, U. Wahl, J. G. Correia, L. M. C. Pereira, L. M. Amorim, E. Bosne, M. M. Ribeiro da Silva, S. Decoster, J. P. Araújo"
+    authors: "<u>D. J. Silva</u>, U. Wahl, J. G. Correia, L. M. C. Pereira, L. M. Amorim, E. Bosne, M. M. Ribeiro da Silva, S. Decoster, J. P. Araújo"
     conference: "E-MRS 2012 Spring Meeting, Strasbourg, France, 2012."
 
   - title: "Lattice location of the transition metals Fe and Ni in Si by means of emission channeling from implanted radioactive isotopes (poster)"
-    authors: "D. J. Silva, U. Wahl, J. G. Correia, L. M. C. Pereira, L. Amorim, E. Bosne, M. Ribeiro da Silva, J. P. Araújo"
+    authors: "<u>D. J. Silva</u>, U. Wahl, J. G. Correia, L. M. C. Pereira, L. Amorim, E. Bosne, M. Ribeiro da Silva, J. P. Araújo"
     conference: "Eurisol meeting 2012, Lisbon, Portugal, 2012."
 
   - title: "Solid state magnetic refrigerator (poster)"
-    authors: "D. J. Silva, B. D. Bordalo, A. M. Pereira, J. Ventura, J. P. Araújo"
+    authors: "<u>D. J. Silva</u>, B. D. Bordalo, A. M. Pereira, J. Ventura, J. P. Araújo"
     conference: "INTERMAG 2012, Vancouver, Canada, 2012."
 
   - title: "Lattice location of Ni in Si by means of on-line emission channeling (poster)"
-    authors: "D. J. Silva, U. Wahl, J. G. Correia, L. M. C. Pereira, L. M. Amorim, E. Bosne, M. M. Ribeiro da Silva, S. Decoster, J. P. Araújo"
+    authors: "<u>D. J. Silva</u>, U. Wahl, J. G. Correia, L. M. C. Pereira, L. M. Amorim, E. Bosne, M. M. Ribeiro da Silva, S. Decoster, J. P. Araújo"
     conference: "E-MRS 2012 Spring Meeting, Strasbourg, France, 2012."
 
   - title: "Lattice location of the transition metals Mn, Co and Ni in Si (poster)"
-    authors: "D. J. Silva, U. Wahl, J. G. Correia, L. M. C. Pereira, L. M. Amorim, E. Bosne, M. R. da Silva, S. Decoster, J. P. Araújo"
+    authors: "<u>D. J. Silva</u>, U. Wahl, J. G. Correia, L. M. C. Pereira, L. M. Amorim, E. Bosne, M. R. da Silva, S. Decoster, J. P. Araújo"
     conference: "Jornadas do MAP-fis 2012, Braga, Portugal, 2012."
 
   - title: "Lattice location of the transition metals Co and Ni in Si (talk)"
-    authors: "D. J. Silva, U. Wahl, J. G. Correia, L. M. C. Pereira, L. M. Amorim, E. Bosne, M. R. da Silva and J. P. Araújo"
+    authors: "<u>D. J. Silva</u>, U. Wahl, J. G. Correia, L. M. C. Pereira, L. M. Amorim, E. Bosne, M. R. da Silva and J. P. Araújo"
     conference: "ISOLDE Workshop and Users meeting 2011, Geneva, Switzerland, 2011."
 
   - title: "Lattice location of the transition metals Co and Ni in Si (talk)"
-    authors: "D. J. Silva, U. Wahl, J. G. Correia, L. M. C. Pereira, L. M. Amorim, E. Bosne, M. R. da Silva and J. P. Araújo"
+    authors: "<u>D. J. Silva</u>, U. Wahl, J. G. Correia, L. M. C. Pereira, L. M. Amorim, E. Bosne, M. R. da Silva and J. P. Araújo"
     conference: "VII Jornadas do IFIMUP-IN, Porto, Portugal, 2011."
 
   - title: "Micro-MagCool: Micro-cooling units using magneto-caloric materials (poster)"
-    authors: "D. J. Silva, A. M. Pereira, J. Ventura, J. Amaral, M. Reis, V. Amaral, J. C. R. E. Oliveira, J. P. Araújo"
+    authors: "<u>D. J. Silva</u>, A. M. Pereira, J. Ventura, J. Amaral, M. Reis, V. Amaral, J. C. R. E. Oliveira, J. P. Araújo"
     conference: "International Workshop on Non Crystalline Solids (IWNCS) 2010, Barcelona, Spain, 2010."
 
   - title: "Performance Optimization of a magneto-caloric refrigerator: micro-channels and rotatory systems (poster)"
-    authors: "D. J. Silva, A. M. Pereira, B. Bordalo, J. C. R. E. Oliveira, J. Ventura, J. P. Araújo"
+    authors: "<u>D. J. Silva</u>, A. M. Pereira, B. Bordalo, J. C. R. E. Oliveira, J. Ventura, J. P. Araújo"
     conference: "Investigação Jovem da Universidade do Porto 2010 (IJUP 2010), Porto, Portugal, 2010."
 
 
