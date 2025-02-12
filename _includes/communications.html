@@ -1,0 +1,38 @@
+{% assign communications = site.data.data.communications %}
+{% if publications %}
+<section class="section publications-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ communications.title }}
+  </h2>
+
+  {% if communications.intro %}
+  <div class="intro">
+    {{ communications.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  {% assign total_communications = communications.papers | size %}
+  {% assign counter = total_communications %}
+
+  <ol reversed style="margin-bottom: 10px;">
+    {% for communication in communications.papers %}
+    <li style="margin-bottom: 10px;">
+      {% if communication.link %}
+        <a href="{{ communication.link }}">{{ communication.title }}</a>
+      {% else %}
+        {{ communication.title }}
+      {% endif %}
+      <div class="publication-authors">{{ communication.authors }}</div>
+      <div class="publication-conference">{{ communication.conference }}</div>
+    </li>
+    {% assign counter = counter | minus: 1 %}
+    {% endfor %}
+  </ol>
+
+</section><!--//section-->
+{% endif %}

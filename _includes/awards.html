@@ -1,0 +1,37 @@
+{% assign awards = site.data.data.awards %}
+{% if awards %}
+<section class="section publications-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ awards.title }}
+  </h2>
+
+  {% if awards.intro %}
+  <div class="intro">
+    {{ awards.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  {% assign total_awards = awards.papers | size %}
+  {% assign counter = total_awards %}
+
+  <ol reversed style="margin-bottom: 10px;">
+    {% for award in awards.papers %}
+    <li style="margin-bottom: 10px;">
+      {% if award.link %}
+        <a href="{{ award.link }}">{{ award.title }}</a>
+      {% else %}
+        {{ award.title }}
+      {% endif %}
+      <div class="publication-authors">{{ award.authors }}</div>
+    </li>
+    {% assign counter = counter | minus: 1 %}
+    {% endfor %}
+  </ol>
+
+</section><!--//section-->
+{% endif %}

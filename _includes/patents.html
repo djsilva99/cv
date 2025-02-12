@@ -1,0 +1,37 @@
+{% assign patents = site.data.data.patents %}
+{% if patents %}
+<section class="section publications-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ patents.title }}
+  </h2>
+
+  {% if patents.intro %}
+  <div class="intro">
+    {{ patents.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  {% assign total_patents = patents.papers | size %}
+  {% assign counter = total_patents %}
+
+  <ol reversed style="margin-bottom: 10px;">
+    {% for patent in patents.papers %}
+    <li style="margin-bottom: 10px;">
+      {% if patent.link %}
+        <a href="{{ patent.link }}">{{ patent.title }}</a>
+      {% else %}
+        {{ patent.title }}
+      {% endif %}
+      <div class="publication-authors">{{ patent.authors }}</div>
+    </li>
+    {% assign counter = counter | minus: 1 %}
+    {% endfor %}
+  </ol>
+
+</section><!--//section-->
+{% endif %}
