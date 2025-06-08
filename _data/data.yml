@@ -86,6 +86,9 @@ experiences:
   - role: Software Engineer
     time: 2025 - Present
     company: NATIXIS, Porto
+    details: |
+        - Developing security-focused APIs to support financial applications,
+          following industry best practices and compliance standards
 
   - role: Software Engineer
     time: 2022 - 2025
@@ -523,7 +526,7 @@ patents:
 #    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
 #    bibendum fringilla a eu lectus.
   papers:
-  - title: "Magnetocaloric Refrigeration Regenerator using the Demagnetizing Field-based Rotating Magnetocaloric Effect (2025)"
+  - title: "Magnetocaloric Refrigeration Regenerator using the Demagnetizing Field-based Rotating Magnetocaloric Effect (2024)"
     link: "https://patentscope.wipo.int/search/en/WO2024257002"
     authors: "<u>D. J. Silva</u>, C. Amorim, C. R. Fernandes, J. S. Amaral, J. H. Belo, J. Ventura, J. P. Araújo, R. F. Almeida;"
 
