@@ -84,7 +84,11 @@ experiences:
   title: Experiences
   info:
   - role: Software Engineer
-    time: 2022 - Present
+    time: 2025 - Present
+    company: NATIXIS, Porto
+
+  - role: Software Engineer
+    time: 2022 - 2025
     company: Loggi, Lisbon
     details: |
         - Played a significant role in the architecture and implementation of
@@ -131,7 +135,7 @@ experiences:
     company: University of Aveiro, Aveiro
     details: |
         - Developed and maintained the open-source Heatrapy Python framework
-          for simulating heat transfer phenomena in caloric systems (~77,000
+          for simulating heat transfer phenomena in caloric systems (~83,000
           downloads to date).
         - Applied machine learning classifiers to optimize magnetocaloric
           setups, achieving a ~99% reduction in computational time, validating
@@ -519,6 +523,10 @@ patents:
 #    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
 #    bibendum fringilla a eu lectus.
   papers:
+  - title: "Magnetocaloric Refrigeration Regenerator using the Demagnetizing Field-based Rotating Magnetocaloric Effect (2025)"
+    link: "https://patentscope.wipo.int/search/en/WO2024257002"
+    authors: "<u>D. J. Silva</u>, C. Amorim, C. R. Fernandes, J. S. Amaral, J. H. Belo, J. Ventura, J. P. Araújo, R. F. Almeida;"
+
   - title: "Magnetocaloric refrigerator or heat pump comprising an externally activable thermal switch (2017)"
     link: "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2017175186&recNum=1&maxRec=&office=&prevFilter=&sortOption=&queryString=&tab=PCT+Biblio"
     authors: "A. M. Pereira, J. Ventura, J. P. Araújo, J. B. Puga, <u>D. J. Silva</u>, I. Gomes, B. D. Bordalo, J. H. Belo, F. Carpinteiro, J. C. R. E. Oliveira;"
@@ -759,5 +767,4 @@ skills:
   - name: Pandas
     level: 75%
 
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+footer: 
