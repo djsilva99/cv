@@ -293,12 +293,17 @@ oss:
     tagline: "Python lib for plotting research simulation data."
 
 publications:
-  title: Publications (44)
+  title: Publications (45)
 #  intro: |
 #    You can list your publications in this section. Lorem ipsum dolor sit
 #    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
 #    bibendum fringilla a eu lectus.
   papers:
+  - title: "Solid-state magnetic refrigerator based on the demagnetizing effect"
+    link: "https://doi.org/10.1016/j.ijrefrig.2025.06.022"
+    authors: "C. R. Fernandes, R. Almeida, J. S. Amaral, J. H. Belo, J. O. Ventura, <u>D. J. Silva</u>"
+    conference: "Int. J. Refrig. <b>2025</b>, 178, 272."
+
   - title: "Optimization of a novel magnetic refrigerator based on the demagnetizing effect using a particle swarm-like algorithm"
     link: "https://doi.org/10.1016/j.ijrefrig.2025.01.016"
     authors: "C. R. Fernandes, J. S. Amaral, R. Almeida, J. H. Belo, J. O. Ventura, <u>D. J. Silva</u>"
@@ -520,7 +525,7 @@ publications:
     conference: "Appl. Energy <b>2012</b>, 93, 570–574."
 
 patents:
-  title: Patents (1)
+  title: Patents (2)
 #  intro: |
 #    You can list your publications in this section. Lorem ipsum dolor sit
 #    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
