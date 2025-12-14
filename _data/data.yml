@@ -9,7 +9,7 @@ sidebar:
 
   # Profile information
   name: Daniel Silva
-  tagline: Senior Software Engineer
+  tagline: Software Engineer
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -112,7 +112,7 @@ experiences:
         - Onboarded new software engineers, fostering a collaborative and
           inclusive team culture.
 
-  - role: Senior Computational Physicist
+  - role: Computational Physicist
     time: 2019 - 2022
     company: University of Porto, Porto
     details: |
@@ -133,7 +133,7 @@ experiences:
         - Supervised Master’s and PhD students on advanced computational
           techniques.
 
-  - role: Senior Computational Physicist
+  - role: Computational Physicist
     time: 2017 - 2019
     company: University of Aveiro, Aveiro
     details: |
