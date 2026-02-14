@@ -282,7 +282,7 @@ oss:
   contributions:
   - title: NebulaPicker
     link: "https://github.com/djsilva99/nebulapicker"
-    tagline: "Self-hosted API that generates custom RSS feeds by filtering content (Fastapi & Next.js), 2026."
+    tagline: "Self-hosted API that generates custom RSS feeds by filtering content (Fastapi & Next.js)."
   - title: Heatrapy
     link: "https://github.com/djsilva99/heatrapy"
     tagline: "Python lib for simulating dynamic 1D and 2D heat transfer processes involving caloric effects by using the finite difference method."
