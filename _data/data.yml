@@ -260,6 +260,9 @@ projects:
 #  intro: >
 #    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
+  - title: "NebulaPicker"
+    link: "https://github.com/djsilva99/nebulapicker"
+    tagline: "Self-hosted API that generates custom RSS feeds by filtering content (Fastapi & Next.js), 2026."
   - title: "Matfinder"
     link: "https://github.com/matfinder/matfinder-doc"
     tagline: "Web database of materials physical properties - Backend developer (PostgreSQL & Flask), 2021."
