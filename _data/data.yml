@@ -303,6 +303,11 @@ publications:
 #    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
 #    bibendum fringilla a eu lectus.
   papers:
+  - title: "A comprehensive review of statistical learning in lymphedema research and future perspectives"
+    link: "https://doi.org/10.1016/j.ibmed.2026.100373"
+    authors: "C.R. Fernandes, J.O. Ventura, <u>D. J. Silva</u>"
+    conference: "Intell Based Med. <b>2026</b>, 14, 100373."
+
   - title: "Solid-state magnetic refrigerator based on the demagnetizing effect"
     link: "https://doi.org/10.1016/j.ijrefrig.2025.06.022"
     authors: "C. R. Fernandes, R. Almeida, J. S. Amaral, J. H. Belo, J. O. Ventura, <u>D. J. Silva</u>"
